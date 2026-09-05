@@ -1,0 +1,28 @@
+This is a basic portfolio app, mainly on the next js with tailwind css and basic html stuff.
+
+Homepage : Contains some info about myself with profile picture. after this info, we should be seeing tiles for the:
+    Experience & Work history, certifications, social media links, contact info. 
+
+On click of each tile should navigate to the respective pages, 
+
+app/
+├── page.tsx
+├── experience/
+│   └── page.tsx
+├── certifications/
+│   └── page.tsx
+├── social/
+│   └── page.tsx
+└── contact/
+    └── page.tsx
+
+components/
+├── Header.tsx
+├── Profile.tsx
+├── PortfolioTile.tsx
+└── ExperienceCard.tsx
+
+data/
+├── experience.ts
+├── certifications.ts
+└── social.ts
